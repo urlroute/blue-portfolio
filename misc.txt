@@ -1,0 +1,57 @@
+Sources
+
+Color Schemes
+https://visme.co/blog/website-color-schemes/
+
+
+.projects-container {
+  border: 1px red solid;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* padding-block: 2rem; */
+  width: 68%;
+  /* margin-inline: auto; */
+  text-align: center;
+  margin: 0 auto;
+}
+
+ /* ??? */
+  .projects-container {
+    flex-direction: column;
+  }
+
+
+
+.projects-container {
+  /* border: 1px red solid; */
+  /* display: grid; */
+  /* gap: 1rem; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* padding-block: 2rem; */
+  /* width: 68%; */
+  /* margin-inline: auto; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  
+
+}
+
+
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/drawkit/DrawKit Vector Illustration Marketing & Ads (14).svg"
+        src="assets/drawkit/DrawKit Vector Illustration Marketing & Ads (14).svg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Hello, I am Chris.</h2>
+        <p class="bio-text">I am an HTML Email Developer looking to join an agency. Let's connect.
+        </p>
+      </div>
+    </section>
